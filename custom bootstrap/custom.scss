@@ -16,24 +16,24 @@ $grid-gutter-width: 1em;
 
 // each breakpoint is a minimum screen width
 $grid-breakpoints: ( 
-  // Phone screen
+  // X-Small Screens (Phone) 
   xs: 0,
-  // Tablet or Split Screen Desktop
+  // Small Screens (Tablet or Split Screen FHD Desktop)
   sm: 700px,
-  // Older pc or laptop ~ FHD (720p)
+  // Medium Screens (~720-768p HD Desktop)
   md: 1100px,
-  // 1080p screem
+  // Large Screens (1080p FHD Desktop) 
   lg: 1500px,
-  // 1440p screen
+  // Extra Large Screens (1440p/2K QHD Desktop) 
   xl: 2000px,
-  // 4k screem
+  // Extra Extra Large Screens (2160p/4K UHD Desktop)
   xxl: 3200px
 );
 
 $container-max-widths: (
-  xs: 90%,
-  sm: 670px,
-  md: 1000px,
+  xs: 200px,
+  sm: 650px,
+  md: 1025px,
   lg: 1400px,
   xl: 1850px,
   xxl: 3000px,
